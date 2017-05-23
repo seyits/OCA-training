@@ -1,4 +1,4 @@
-package wkopd1;
+package wkopd1Yahtzee;
 
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -16,7 +16,7 @@ public class Spelers {
 	void spelerNaamInvoeren(){
 		String naam="";
 		for (int i=1; i<= aantalSpelers; i++){
-				System.out.println("naam speler " + i +": ");
+				System.out.print("naam speler " + i +": ");
 				naam = $spelers.next();
 				lijst.add(naam);
 			}			

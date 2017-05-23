@@ -1,11 +1,11 @@
-package wkopd1;
+package wkopd1Yahtzee;
 
 public class TestMain {
 
 	public static void main(String[] args) {
 		Spelers spelersAantal = new Spelers();
 		spelersAantal.bepaalAantalSpelers();
-		Diceee dice = new Diceee();
+		Dice dice = new Dice();
 		dice.beurten();
 		
 	}
